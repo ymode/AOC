@@ -5,7 +5,8 @@ username on AOC: ```ymode```
 
 I only started this on Day 21 (2024) due to a coding community I am part of all saying how hard it was.
 
-### 2024
+### 2024 
+(click the stars below for their respective solutions)
 - Day 1: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_1.py) [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_1_p2.py)
 - Day 2: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_2.py) [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_2_p2.py)
 - Day 3: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_3.py) [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_3_p2.py)
