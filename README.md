@@ -11,5 +11,6 @@ I only started this on Day 21 (2024) due to a coding community I am part of all 
 - Day 3: ⭐⭐
 - Day 4: ⭐⭐
 - Day 5: ⭐⭐
+- Day 6: ⭐
 - Day 21: ⭐
 - Day 22: ⭐⭐
