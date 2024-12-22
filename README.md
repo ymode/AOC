@@ -5,4 +5,5 @@ I only started this on Day 21 (2024) due to a coding community I am part of all 
 
 ### 2024
 - Day 1: ⭐⭐
+- Day 2: ⭐
 - Day 21: ⭐
