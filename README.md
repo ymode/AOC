@@ -11,4 +11,4 @@ I only started this on Day 21 (2024) due to a coding community I am part of all 
 - Day 3: ⭐⭐
 - Day 4: ⭐⭐
 - Day 21: ⭐
-- Day 22: ⭐
+- Day 22: ⭐⭐
