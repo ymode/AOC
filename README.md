@@ -25,6 +25,7 @@ I only started this on Day 21 (2024) due to a coding community I am part of all 
 - Day 16: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_16.py)
 - Day 17: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_17.py)
 - Day 18: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_18.py) [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_18_p2.py)
+- Day 19: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_19.py) [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_19_p2.py)
 - ⚠️ coming soon ⚠️
 - Day 21: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_21.py) 
 - Day 22: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_22.py) [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_22_p2.py)
