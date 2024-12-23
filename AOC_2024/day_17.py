@@ -1,18 +1,6 @@
 def solve():
-    with open("day_17.txt", "r") as f:
-        lines = f.readlines()
-
-    registers = {}
-    for line in lines:
-        if line.startswith("Register A:"):
-            registers['A'] = int(line.split(": ")[1])
-        elif line.startswith("Register B:"):
-            registers['B'] = int(line.split(": ")[1])
-        elif line.startswith("Register C:"):
-            registers['C'] = int(line.split(": ")[1])
-        elif line.startswith("Program:"):
-            program = [int(x) for x in line.split(": ")[1].strip().split(",")]
-            break
+    registers = {'A': 30886132, 'B': 0, 'C': 0}
+    program = [2, 4, 1, 1, 7, 5, 0, 3, 1, 4, 4, 4, 5, 5, 3, 0]
 
     ip = 0
     output = []
@@ -20,7 +8,7 @@ def solve():
     def get_literal_operand_value(operand):
         return operand
 
-    def get_combo_operand_value(operand):
+    def get_combo_operand_value(operand, registers):
         if 0 <= operand <= 3:
             return operand
         elif operand == 4:
@@ -41,14 +29,14 @@ def solve():
         operand = program[ip + 1]
 
         if opcode == 0:  # adv
-            divisor = 2 ** get_combo_operand_value(operand)
+            divisor = 2 ** get_combo_operand_value(operand, registers)
             registers['A'] //= divisor
             ip += 2
         elif opcode == 1:  # bxl
             registers['B'] ^= get_literal_operand_value(operand)
             ip += 2
         elif opcode == 2:  # bst
-            registers['B'] = get_combo_operand_value(operand) % 8
+            registers['B'] = get_combo_operand_value(operand, registers) % 8
             ip += 2
         elif opcode == 3:  # jnz
             if registers['A'] != 0:
@@ -59,15 +47,15 @@ def solve():
             registers['B'] ^= registers['C']
             ip += 2
         elif opcode == 5:  # out
-            output_value = get_combo_operand_value(operand) % 8
+            output_value = get_combo_operand_value(operand, registers) % 8
             output.append(str(output_value))
             ip += 2
         elif opcode == 6:  # bdv
-            divisor = 2 ** get_combo_operand_value(operand)
+            divisor = 2 ** get_combo_operand_value(operand, registers)
             registers['B'] //= divisor
             ip += 2
         elif opcode == 7:  # cdv
-            divisor = 2 ** get_combo_operand_value(operand)
+            divisor = 2 ** get_combo_operand_value(operand, registers)
             registers['C'] //= divisor
             ip += 2
         else:
