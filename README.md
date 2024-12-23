@@ -23,9 +23,11 @@ I only started this on Day 21 (2024) due to a coding community I am part of all 
 - Day 14: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_14.py) [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_14_p2.py)
 - Day 15: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_15.py)
 - Day 16: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_16.py)
+- Day 17: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_17.py)
 - ⚠️ coming soon ⚠️
 - Day 21: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_21.py) 
 - Day 22: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_22.py) [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_22_p2.py)
+- Day 23: [⭐](https://github.com/ymode/AOC/blob/main/AOC_2024/day_23.py)
 
 # Merry Xmas
 ![image](https://github.com/user-attachments/assets/677cdd6e-d5f1-4d31-986d-d91fef719e98)
